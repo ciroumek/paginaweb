@@ -1,36 +1,49 @@
+@font-face {
+  font-family: "fuente1";
+  src: url(../fuentes/fuentes.ttf) format("truetype")
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
 p {
   display: flex;
   justify-content: center;
+  font-family: "fuente1"
+}
+.imgchipa {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 40vh;
+  background: #FFF8DC;
+}
+.navegador {
+  display: flex;
+  justify-content: space-around;
+}
+.mapa1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#navegador {
-  display: flex;
-  justify-content: center;
-}
-section {
-  display: flex;
-  justify-content: center;
-}
 aside {background-position: center;
 border: 2px solid }
 .texto {text-align: center;
 }
 h2 {text-align: center;
+
 }
 .textomapa {text-align: center;
 }
-#mapa1 {
-display: flex;
 
-align-items: center;
-}
 .TACC {color: red;
 }
 .video1 {
   display: flex;
-  
-  align-items: center;
+  justify-content: center;
 }
+
 .igimg {
  width: 100px;
  height: auto;
