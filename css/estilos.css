@@ -13,11 +13,16 @@ p {
 .bienvenida {
   display: flex;
   justify-content: center;
-  justify-content: space-between;
-  flex-direction: row-reverse;
+  justify-content: space-around;
   width: 100vw;
   height: 40vh;
   background: #FFF8DC;
+}
+.imagenesbienvenida {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-between;
 }
 .navegador {
   display: flex;
@@ -30,8 +35,11 @@ p {
 }
 
 aside {background-position: center;
-border: 2px solid }
+border: 2px solid;
+
+}
 .texto {text-align: center;
+
 }
 h2 {text-align: center;
 
@@ -77,4 +85,36 @@ h2 {text-align: center;
   justify-content: space-around;
   justify-content: space-between;
   background-color: #FFF8E7;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-family: none;
+    background-color: white;
+  }
+.mapa1 {
+  display: none;
+}
+.textomapa {
+  display: none;
+}
+.imagenesbienvenida {
+  display: none;
+}
+.bienvenida {
+  width: 100vw;
+  height: 20%;
+}
+
+}
+
+
+@media (min-width: 701px) {
+  body {
+    background-color: #FFF8E7;
+  }
+  .chipafoto {
+    display: none;
+
+  }
 }
